@@ -1,0 +1,72 @@
+GOAL
+
+Create an application that runs on the hololens (possibly other devices) to select a piece of equipment and show its user manual. The selection can be manual, but ideally is assisted via artifical intelligence (e.g. object identification). 
+
+TODO
+
+p1
+[ ]host github game files on firemonster.com
+	[ ]tetris
+	[ ]minesweeper
+	[ ]snake
+	[?]chess
+[ ]architectural diagram
+	[ ]whiteboard
+	[ ]powerpoint doc
+[ ]user interface design
+	[ ]whiteboard
+		[ ]manual
+		[ ]artifical intelligence
+			[ ]define "bounding box"
+			[ ]gesture to select equipment
+		[ ]gesture to initiate user doc download
+	[ ]powerpoint doc
+[ ]hololens tutorials
+	[ ]read/run through some good tutorials
+		[ ]https://docs.microsoft.com/en-us/learn/paths/beginner-hololens-2-tutorials/
+[ ]identify sample data (e.g. equipment and user manuals)
+	[ ]microwave
+		[ ]user manual
+	[ ]coffee machine
+		[ ]user manual
+	[ ]refrigerator
+		[ ]user manual
+[ ]upload user manuals to "cloud"
+[?]put docs on device
+[ ]manual selection
+	[ ]select equipment from dropdown ➜ download + display doc
+[ ]download user manual from "cloud" (using "id", e.g. "refrigerator")
+[ ]show the user manual
+	
+p2
+[ ]image classification selection
+	[ ]create model
+		[ ]tutorial: https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier
+		[ ]collect pictures of equipment
+		[ ]create computer vision api project
+		[ ]upload pictures to computer vision api project
+		[ ]train model
+		[ ]deploy model
+	[ ]take picture of equipment ➜ get type from deployed model ➜ download + display doc
+[?]qr code selection
+	[ ]on hololens, protocol
+		[ ]take picture of qr code ➜ download + display doc
+[ ]deploy app to hololens and test
+[ ]put all code on repo
+	[ ]documentation (e.g. README.md)
+		[ ]installation
+		[ ]usage
+[ ]powerpoint doc and recording
+
+p3
+[ ]voice recognition selection
+	[ ]on hololens, protocol
+		[ ]commands: e.g. "get manual" ➜ "microwave" ➜ download + display doc
+[ ]ocr (optical character recognition)
+	[ ]on hololens, protocol
+		[ ]take picture of text ➜ send text to ocr service ➜ download + display doc 
+[ ]compare accuracy of different selection methods
+
+stretch
+[ ]language understanding (e.g. LUIS) - https://docs.microsoft.com/en-us/azure/cognitive-services/luis/what-is-luis
+[ ]other devices (e.g. phone, laptop)
