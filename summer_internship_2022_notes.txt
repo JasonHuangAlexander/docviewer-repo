@@ -5,16 +5,11 @@ Create an application that runs on the hololens (possibly other devices) to sele
 TODO
 
 p1
-[ ]host github game files on firemonster.com
-	[ ]tetris
-	[ ]minesweeper
-	[ ]snake
-	[?]chess
 [ ]architectural diagram
-	[ ]whiteboard
+	[x]whiteboard
 	[ ]powerpoint doc
 [ ]user interface design
-	[ ]whiteboard
+	[x]whiteboard
 		[ ]manual
 		[ ]artifical intelligence
 			[ ]define "bounding box"
@@ -24,6 +19,7 @@ p1
 [ ]hololens tutorials
 	[ ]read/run through some good tutorials
 		[ ]https://docs.microsoft.com/en-us/learn/paths/beginner-hololens-2-tutorials/
+		[ ]
 [ ]identify sample data (e.g. equipment and user manuals)
 	[ ]microwave
 		[ ]user manual
