@@ -5,7 +5,13 @@ Create an application that runs on the hololens (possibly other devices) to sele
 TODO
 
 p1
-[ ]architectural diagram
+[/]install "hello world" file thing on hololens emulator
+	[/]look at https://docs.microsoft.com/en-us/windows/mixed-reality/develop/advanced-concepts/using-the-hololens-emulator
+[/]get pdf viewable from inside of unity
+	[ ]download sample pdf
+	[ ]find way to open a file/pdf/anything/txt in unity
+	
+[/]architectural diagram
 	[x]whiteboard
 	[ ]powerpoint doc
 [ ]user interface design
@@ -35,9 +41,9 @@ p1
 [ ]show the user manual
 	
 p2
-[ ]image classification selection
-	[ ]create model
-		[ ]tutorial: https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier
+[/]image classification selection
+	[/]create model
+		[/]tutorial: https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier
 		[ ]collect pictures of equipment
 		[ ]create computer vision api project
 		[ ]upload pictures to computer vision api project
