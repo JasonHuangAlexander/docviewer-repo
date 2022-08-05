@@ -44,12 +44,12 @@ p2
 [/]image classification selection
 	[/]create model
 		[/]tutorial: https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier
-		[ ]collect pictures of equipment
-		[ ]create computer vision api project
-		[ ]upload pictures to computer vision api project
-		[ ]train model
-		[ ]deploy model
-	[ ]take picture of equipment ➜ get type from deployed model ➜ download + display doc
+		[x]collect pictures of equipment
+		[x]create computer vision api project
+		[x]upload pictures to computer vision api project
+		[x]train model
+		[x]deploy model
+		[/]call the model using c#
 [?]qr code selection
 	[ ]on hololens, protocol
 		[ ]take picture of qr code ➜ download + display doc
